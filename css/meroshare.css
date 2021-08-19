@@ -5,6 +5,10 @@ body{
     font-size:0.775rem;
     font-weight:400;
 }
+.input-group:not(.has-validation) > .form-control:not(:last-child), .input-group:not(.has-validation) > .custom-select:not(:last-child), .input-group:not(.has-validation) > .custom-file:not(:last-child) .custom-file-label::after {
+  border-top-right-radius: 0.25rem;
+     border-bottom-right-radius: 0.25rem; 
+}
 
 .btn{
     background:#fafafa;
